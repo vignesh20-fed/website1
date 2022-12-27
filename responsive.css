@@ -44,15 +44,61 @@
 	width:91.66%;
 }	
 	.col-xs-12{
-		flex:0 0 auto;
+	flex:0 0 auto;
 	width:100%;
 }
   .d-xs-none{
 	  display:none !important;
   }
   .contactinfo span{
-	  font-size:14px;
+	  font-size:12px;
   }
+  .chooseitem{
+	  margin:30px 0 0;
+	  height:0 auto;
+  }
+  .abt-content{
+    padding-top:20px;
+	padding-left:0;
+  }
+  .abt-img{
+	  height:400px;
+  }
+  .client-logo{
+	  padding:10px 0;
+  }
+  .buyitem{
+	  margin-bottom:30px;
+  }
+  .buyitem .buyadvance{
+	position:absolute;
+	bottom:360px;
+	left:290px;
+	background-color:var(--primary-color);
+	border:1px solid var(--primary-color);
+	padding:0 40px;
+	transform:rotate(37deg);
+  }
+   .faqcontentitem {
+    background-color: white;
+    box-shadow: 0 0 5px #ccc;
+    margin: 20px 0px 0;
+    padding: 20px;
+    position: relative;
+}
+   .contactfull {
+    padding: 20px 0px;
+}
+  .authorcontent{
+	      text-align: center;
+    margin-bottom: 30px;
+  }
+  .fontcontent{
+	  text-align: center;
+}
+  }
+  
+  
 	
 }
 @media(min-width:576px){
