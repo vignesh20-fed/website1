@@ -477,7 +477,7 @@
 	background-size:cover;
 	border-radius:2%;
     padding:20px;
-    padding-top: 175px;
+    padding-top: 162px;
 	margin-bottom:30px;
 	transition: all 0.3s ease;
 }
@@ -726,7 +726,7 @@ color:white;
 	padding:60px 0;
 }
 .teamitem{
-	margin-top:10px; 
+	margin:10px 0; 
     border-radius:5px;
     overflow:hidden;	
 }
@@ -887,6 +887,7 @@ color:white;
 .faqcontentitem a{
 	text-decoration:none;
 	color:#000;
+    padding-left:0;
 }
 .faqcontentitem a:hover{
 	color:var(--primary-color);
@@ -905,7 +906,7 @@ color:white;
 }
 .faqicons{
 	position:absolute;
-	right:40px;
+	right:30px;
 	bottom:25px;
 }
 .faqcontentitem:hover  a
@@ -982,13 +983,14 @@ color:white;
 
 /*---------------author-----------*/
 .footsect{
-	padding:60px 0;
+	padding:40px 0;
 	background-color:var(--bg-color);
 }
 .fontitem{
     font-size:20px;
 	line-height:60px;
 	font-family: 'Raleway', sans-serif;
+	padding:10px 0;
 }
 .fontitem h3{
 	font-weight:500;
@@ -1004,6 +1006,7 @@ color:white;
 .fontlink{
 	line-height:40px;
      font-size:15px;	
+	 padding:10px 0;
 }
 .fontlink h3{
 	font-weight:500;
@@ -1022,7 +1025,7 @@ color:white;
 
 
 .fontnew{
-	padding:10px;
+	padding:20px 0;
 	font-size:15px;	
 }
 .fontnew h3{

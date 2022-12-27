@@ -50,45 +50,79 @@
   .d-xs-none{
 	  display:none !important;
   }
+ /*------- contact res ------------*/  
+  .contactinfo{
+	      padding: 10px 20px;
+  }
   .contactinfo span{
 	  font-size:12px;
   }
+   /*------- banner res ------------*/  
+  .bannercontent  h1{
+	  font-size:28px;
+  }
+  
+   .bannercontent  p{
+	  font-size:18px;
+  }
+   /*------- chooseitem res ------------*/  
   .chooseitem{
 	  margin:30px 0 0;
 	  height:0 auto;
   }
+   /*-------- about res ------------*/  
   .abt-content{
-    padding-top:20px;
+    padding-top:30px;
 	padding-left:0;
   }
   .abt-img{
 	  height:400px;
   }
-  .client-logo{
+   /*------- clientlogo res ------------*/  
+   .client-logo{
 	  padding:10px 0;
   }
+   /*------- termianl res ------------*/  
+  .terminalitem .img img{
+	width:30%;
+	border-radius:50%;
+	border:6px solid rgba(255, 255, 255, 0.15);
+}
+  .terminalitem p{
+	 padding:0 0;
+	 font-size:16px;
+}
+  
+  /*------- buyitem res ------------*/  
+ 
   .buyitem{
 	  margin-bottom:30px;
   }
   .buyitem .buyadvance{
 	position:absolute;
 	bottom:360px;
-	left:290px;
+	left:230px;
 	background-color:var(--primary-color);
 	border:1px solid var(--primary-color);
 	padding:0 40px;
 	transform:rotate(37deg);
   }
+   /*------- faq res ------------*/  
    .faqcontentitem {
     background-color: white;
     box-shadow: 0 0 5px #ccc;
-    margin: 20px 0px 0;
+    margin: 20px 10px;
     padding: 20px;
     position: relative;
 }
+   /*------- contact res ------------*/   
    .contactfull {
     padding: 20px 0px;
 }
+   .contactitem{
+	   margin-top:20px;
+   }
+    /*------- footer res ------------*/  
   .authorcontent{
 	      text-align: center;
     margin-bottom: 30px;
