@@ -11,7 +11,7 @@
 	
 }
 .container{
-	width:1170px;
+	width:100%;
 	margin:0 auto;
 	padding:0 15px;
 	}
@@ -25,42 +25,7 @@
 	width:100%;
 	padding:0 15px;
 }	
-.col-lg-1{
-	width:8.33%;
-}
-.col-lg-2{
-	width:16.66%;
-}	
-.col-lg-3{
-	width:25%;
-}	
-.col-lg-4{
-	width:33.33%;
-}	
-	.col-lg-5{
-	width:41.66%;
-}	
-	.col-lg-6{
-	width:50%;
-}	
-	.col-lg-7{
-	width:58.33%;
-}	
-	.col-lg-8{
-	width:66.66%;
-}	
-	.col-lg-9{
-	width:75%;
-}	
-	.col-lg-10{
-	width:83.33%;
-}	
-	.col-lg-11{
-	width:91.66%;
-}	
-	.col-lg-12{
-	width:100%;
-}	
+
 
 .justify-content-start{
 	justify-content:flex-start !important;
@@ -193,7 +158,6 @@
 /*------------banner style-----*/
 .bannersection{
 	padding:250px 0px;
-	height:100%;
 	background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("image/hero-bg.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -957,7 +921,7 @@ color:white;
 	padding:60px 0;
 }
 .contactfull{
-	margin:20px 150px;
+	padding:20px 100px;
 }
 .contactitem{
 	position:relative;
