@@ -855,14 +855,15 @@ color:white;
 	opacity:70%;
 }
 .buyitem .buyadvance{
-	position:absolute;
-	bottom:360px;
-	left:150px;
-	background-color:var(--primary-color);
-	border:1px solid var(--primary-color);
-	height:30px;
-	padding:0 40px;
-	transform:rotate(38deg);
+	width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background-color:var(--primary-color);
+    color: #fff;
+	transform: rotate(45deg);
 }
 .buyadvance p{
 	line-height:30px;
