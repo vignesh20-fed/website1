@@ -888,7 +888,7 @@ color:white;
 .faqcontentitem a{
 	text-decoration:none;
 	color:#000;
-    padding-left:0;
+    font-size:16px;
 }
 .faqcontentitem a:hover{
 	color:var(--primary-color);
@@ -907,8 +907,8 @@ color:white;
 }
 .faqicons{
 	position:absolute;
-	right:30px;
-	bottom:25px;
+	top:25px;
+	right:10px;
 }
 .faqcontentitem:hover  a
  {
