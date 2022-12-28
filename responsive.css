@@ -56,11 +56,9 @@
   }
   
  /*------- contact res ------------*/  
-  .contactinfo{
-    padding: 10px 20px;
-  }
+
   .contactinfo span{
-	  font-size:12px;
+	  font-size:13px;
   }
   .contactinfo span > a{
     padding-right:8px;
@@ -148,9 +146,7 @@
 	flex:0 0 auto;
 	width:100%;
 }
-  .d-md-none{
-	  display:none !important;
-  }
+ 
  /*----- client md -------*/
   .client-logo {
     padding: 10px 10px;
@@ -167,6 +163,9 @@
                                 /*--------------- max-width:992px --------*/
 
 @media(max-width:992px){
+	 .d-md-none{
+	  display:none !important;
+  }
 	
 	   /*------- banner com ------------*/  
   .bannercontent  h1{
