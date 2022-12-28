@@ -58,6 +58,9 @@
   .contactinfo span{
 	  font-size:12px;
   }
+  .contactinfo span > a{
+    padding-right:8px;
+}
    /*------- banner res ------------*/  
   .bannercontent  h1{
 	  font-size:28px;
