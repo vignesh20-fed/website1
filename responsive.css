@@ -1,3 +1,5 @@
+                        /*--------------- max-width:576px --------*/
+                          
 @media (max-width: 576px){
 	
 .col-xs-1{
@@ -48,9 +50,11 @@
 	flex:0 0 auto;
 	width:100%;
 }
+
   .d-xs-none{
 	  display:none !important;
   }
+  
  /*------- contact res ------------*/  
   .contactinfo{
     padding: 10px 20px;
@@ -60,28 +64,8 @@
   }
   .contactinfo span > a{
     padding-right:8px;
-}
-   /*------- banner res ------------*/  
-  .bannercontent  h1{
-	  font-size:28px;
-  }
-  
-   .bannercontent  p{
-	  font-size:18px;
-  }
-   /*------- chooseitem res ------------*/  
-  .chooseitem{
-	  margin:30px 0 0;
-	  height:0 auto;
-  }
-   /*-------- about res ------------*/  
-  .abt-content{
-    padding-top:30px;
-	padding-left:0;
-  }
-  .abt-img{
-	  height:500px;
-  }
+   }
+
    /*------- clientlogo res ------------*/  
    .client-logo{
 	  padding:10px 0;
@@ -90,31 +74,137 @@
    /*------- termianl res ------------*/  
   .terminalitem .img img{
 	width:30%;
-}
+     }
   .terminalitem p{
-	 padding:0 0;
+	 padding:0;
 	 font-size:16px;
-}
-  
-  /*------- buyitem res ------------*/  
- 
-  .buyitem{
-	  margin-bottom:30px;
-  }
-
+      }
    /*------- faq res ------------*/  
    .faqcontentitem {
     margin: 20px 10px;
     padding: 20px;
+   }	
 }
-   /*------- contact res ------------*/   
+
+
+
+@media(min-width:576px){
+	.container{
+		width:550px;
+	}
+}
+
+                          /*--------------- min-width:768px --------*/
+
+@media (min-width:768px){
+	.container{
+		width:720px;
+	}
+.col-md-1{
+	flex:0 0 auto;
+	width:8.33%;
+}
+.col-md-2{
+	flex:0 0 auto;
+	width:16.66%;
+}	
+.col-md-3{
+	flex:0 0 auto;
+	width:25%;
+}	
+.col-md-4{
+	flex:0 0 auto;
+	width:33.33%;
+}	
+	.col-md-5{
+	flex:0 0 auto;	
+	width:41.66%;
+}	
+	.col-md-6{
+    flex:0 0 auto;
+	width:50%;
+}	
+	.col-md-7{
+		flex:0 0 auto;
+	width:58.33%;
+}	
+	.col-md-8{
+		flex:0 0 auto;
+	width:66.66%;
+}	
+	.col-md-9{
+		flex:0 0 auto;
+	width:75%;
+}	
+	.col-md-10{
+		flex:0 0 auto;
+	width:83.33%;
+}	
+	.col-md-11{
+		flex:0 0 auto;
+	width:91.66%;
+}	
+	.col-md-12{
+	flex:0 0 auto;
+	width:100%;
+}
+  .d-md-none{
+	  display:none !important;
+  }
+ /*----- client md -------*/
+  .client-logo {
+    padding: 10px 10px;
+}
+
+}
+
+@media(min-width:992px){
+	.container{
+		width:960px;
+	}
+}
+
+                                /*--------------- max-width:992px --------*/
+
+@media(max-width:992px){
+	
+	   /*------- banner com ------------*/  
+  .bannercontent  h1{
+	  font-size:28px;
+  }
+  
+   .bannercontent  p{
+	  font-size:18px;
+  }
+      /*------- whychoose com ------------*/
+  .chooseitem{
+	  margin:30px 0 0;
+	  height:0 auto;
+  }	
+      /*------- about com ------------*/
+  .abt-content{
+    padding-top:30px;
+	padding-left:0;
+  }
+   .abt-img{
+	  height:500px;
+  }
+    /*------- buyitem com ------------*/  	
+  .buyitem{
+	  margin-bottom:30px;
+  }
+  .faqcontentitem {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+      /*------- contact com ------------*/   
    .contactfull {
     padding: 20px 0px;
-}
+      }
    .contactitem{
 	   margin-top:20px;
    }
-    /*------- footer res ------------*/  
+       /*------- footer com ------------*/  
   .authorcontent{
 	      text-align: center;
     margin-bottom: 30px;
@@ -122,26 +212,11 @@
   .fontcontent{
 	  text-align: center;
 }
-  }
-  
-  
-	
+
 }
-@media(min-width:576px){
-	.container{
-		width:550px;
-	}
-}
-@media(min-width:768px){
-	.container{
-		width:720px;
-	}
-}
-@media(min-width:992px){
-	.container{
-		width:960px;
-	}
-}
+
+                    /*--------------- min-width:1200px --------*/
+					
 @media(min-width:1200px){
 	.container{
 		width:1170px;
@@ -182,5 +257,11 @@
 	.col-lg-12{
 	width:100%;
 }	
+  .d-lg-block{
+	display:block !important;
+  }
+  .d-lg-none{
+	  display:none !important;
+  }
 
 }

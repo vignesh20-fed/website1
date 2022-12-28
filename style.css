@@ -14,6 +14,7 @@
 	width:100%;
 	margin:0 auto;
 	padding:0 15px;
+	position:relative;
 	}
 .row{
 	display:flex;
@@ -76,6 +77,9 @@
 .text-justify{
 	text-align:justify !important;
 }	
+.d-none{
+	display:none !important;
+}
 .commontitle{
 	text-align:center;
 }
@@ -125,6 +129,18 @@
 
 .navsection{
 	padding:15px 0;	
+}
+.menu-btn{
+	position:absolute;
+	top:0;
+	right:20px;
+	width:40px;
+	height:0 auto;
+	padding:0;
+	background:transparent;
+	border:0;
+	box-shadow:none;
+	font-size:30px;
 }
 .logo{
 	background-color:white;
