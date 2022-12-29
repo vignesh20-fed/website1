@@ -141,6 +141,10 @@
 	.btn{
 		padding:12px 8px;
 	}
+	 .chooseitem{
+	  margin:30px 0 0;
+	  height:0 auto;
+    }	
 	    /*------- about sm ------------*/
   .abt-content{
     padding-top:30px;
