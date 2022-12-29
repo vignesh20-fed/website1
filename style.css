@@ -602,7 +602,7 @@ color:white;
 	background-repeat:no-repeat;
 }
 .terminalitem .img img{
-	width:9%;
+	width:100px;
 	border-radius:50%;
 	border:6px solid rgba(255, 255, 255, 0.15);
 }
