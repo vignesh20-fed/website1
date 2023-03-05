@@ -116,6 +116,11 @@
     margin: 20px 10px;
     padding: 20px;
    }	
+   
+   .terminalitem p{
+	   padding: 0;
+   }
+   }
 }
 
 
@@ -215,7 +220,10 @@
   .fontcontent{
 	  text-align: center;
 }
-
+   
+   .terminalitem p{
+	   padding: 0;
+   }
 
 	
 }
@@ -284,13 +292,15 @@
 }
 
 
-
-
+@media (min-width:992px){
+	.container{
+		width:972px;
+	}
+}
                                 /*--------------- max-width:992px --------*/
 
 @media(max-width:992px){
 
-	
 	   /*------- banner com ------------*/  
   .bannercontent  h1{
 	  font-size:28px;
@@ -338,11 +348,14 @@
 	  text-align: center;
 }
 
-}
+ .terminalitem p{
+	   padding: 0;
+   }
 
+}
      /*--------------- min-width:1200px --------*/
 					
-@media(max-width:1200px){
+@media(min-width:1200px){
 	.container{
 		width:1170px;
 	}
