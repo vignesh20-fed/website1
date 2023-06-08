@@ -186,6 +186,9 @@ a{
 	text-decoration:none;
 	font-size:14px;
 }
+.nav-menu #active{
+color:#66FCF1 !important;
+}
 .nav-container{ 
     width:85%; 
     margin:auto;
