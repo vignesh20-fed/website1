@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-   <title></title>
    <link rel="stylesheet" href="css/font-awesome.min.css">
+   <title></title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -18,7 +17,7 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <header class="headertop">
+
   <div class="headerinfo">
   <div class="container">
   <div class="row justify-content-space-between align-items-center">
@@ -31,45 +30,40 @@
 		    <i class="fa fa-mobile" aria-hidden="true"></i>+1 5589 55488 55
 		 </span>
       </div>
+	  
 	   </div>
-	  <div class="col-md-3 col-sm-3 col-lg-3 text-right  d-xs-none">
+	     <div class="col-md-3 col-sm-3 col-lg-3 text-right d-xs-none">
 		     <a href class="btn"> Get started</a>
 	  </div>
+	
   </div>
   </div>
   </div>
   <!--header info ends -->
-  <div class="navsection">
-    <div class="container">
-	  <div class="row  justify-content-space-between">
-	    <div class="col-lg-3">
-		<h1 class="logo">
-		<a href="#">Flexor</a>
-		</h1>
-		</div>
-		<div class="col-lg-8 d-none d-lg-block">
-		<nav class="navbar">
-		<ul class="menubar">
-		  <li class="main"><a href="#" class="active">Home</a></li>
-		  <li class="main"><a href="#">About</a></li>
-		  <li class="main"><a href="#">Services</a></li>
-		  <li class="main"><a href="#">Portofile</a></li>
-		  <li class="main"><a href="#">Team</a></li>
-		  <li class="main"><a href="#">Pricing</a></li>
-		  <li class="main"><a href="#">Blog</a></li>
-		  <li class="main"><a href="#">Dropdown</a></li>
-		  <li class="main"><a href="#">Contact</a></li>
-		</ul>
-		</nav>
-		</div>
-	  </div>
-	  <button class="menu-btn d-lg-none"><i class="fa fa-bars" aria-hidden="true"></i></button>
-	</div>
-  </div>
-  </header>
+			<header class="header">
+				<div class="nav-container">
+					<nav class="navbar">
+					<a href="#" class="nav-branding">Flexor</a>
+				<ul class="nav-menu">
+						<li class="nav-item" id="active"> <a href="#home"class="nav-link">Home</a></li>
+						<li class="nav-item"> <a href="#about"class="nav-link">About</a></li>
+						<li class="nav-item"> <a href="#services" class="nav-link">Services</a></li>
+						<li class="nav-item"> <a href="#portfolio" class="nav-link">Portfolio</a></li>
+						<li class="nav-item"> <a href="#team" class="nav-link">Team</a></li>
+						<li class="nav-item"> <a href="#pricing" class="nav-link">Pricing</a></li>
+						<li class="nav-item"> <a href="#faq" class="nav-link">FAQ</a></li>
+						<li class="nav-item"> <a href="#contact" class="nav-link">Contact</a></li>
+					</ul>
+					<div class="hamburger">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+				</nav>
+			</header>
   
   <!-------------banner section-------->
-  <section class="bannersection">
+  <section class="bannersection"  id="home">
   <div data-aos="fade-up"
 	data-aos-duration="2000">
 
@@ -128,7 +122,7 @@
 		</div>
   </section>
   <!-------chooseend------->
-  <section class="abt-section">
+  <section class="abt-section" id="about">
    <div data-aos="fade-up"
 	data-aos-duration="2000">
   <div class="container">
@@ -228,7 +222,7 @@
   </div>
   </section>
 <!---------clientlogoend---------->
-<section class="servicesect">
+<section class="servicesect" id="services">
  <div data-aos="fade-up"
 	data-aos-duration="2000">
 <div class="container">
@@ -296,7 +290,7 @@
 </div>
 </section>
   <!--------sectionserviceend---------->
- <section class="protofilecessect">
+ <section class="protofilecessect" id="portfolio">
  <div class="container">
  <div class="row">
  <div class="col-md-6 col-lg-6 ">
@@ -536,7 +530,7 @@
 </div>
 </section>
 <!--------------pricing end----------------->
-<section class="teamsect">
+<section class="teamsect" id="team">
 <div class="container">
 <div class="commontitle">
 <h2>Team</h2>
@@ -619,7 +613,7 @@
 <!------------------team end-------->
 
 
-<section class="buysection">
+<section class="buysection" id="pricing">
 <div class="container">
 <div class="commontitle">
 <h2>Pricing</h2>
@@ -714,9 +708,7 @@
 </div>
 </section>
 <!-------------------buy end--------------->
- <section class="faqsection">
- 
- 
+ <section class="faqsection" id="faq">
  <div class="container text-center">
      <div class="commontitle">
 	 <h2>F.A.Q</h2>
@@ -762,7 +754,7 @@
   </section>  
 <!-------------contact end---------->
 
-<section class="contectsect">
+<section class="contectsect" id="contact">
 <div class="container">
 <div class="commontitle">
   <h2>Contact</h2>
@@ -908,6 +900,19 @@
   <script>
   AOS.init();
  </script>
-  
+ <script>
+ const hamburger = document.querySelector(".hamburger");
+				const navMenu = document.querySelector(".nav-menu");
+		
+				hamburger.addEventListener("click", () => {
+					hamburger.classList.toggle("active");
+					navMenu.classList.toggle("active");
+				})
+		
+				document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click" , () => {
+					hamburger.classList.remove("active");
+					navMenu.classList.remove("active");
+				}))
+ </script>
 </body>
 </html>

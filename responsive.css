@@ -54,6 +54,8 @@
   .d-xs-none{
 	  display:none !important;
   }
+
+        
   
  /*------- contact xs ------------*/  
    .contactinfo{
@@ -183,7 +185,17 @@
 	  .d-xs-none{
 	  display:none !important;
   }
-  
+   
+  .contactinfo span{
+	  font-size:13px;
+  }
+  .contactinfo span > a{
+    padding-right:8px;
+   }
+    .chooseitem{
+	  margin:30px 0 0;
+	  height:0 auto;
+    }	
 	.btn{
 		padding:12px 8px;
 	}
@@ -224,12 +236,9 @@
   .fontcontent{
 	  text-align: center;
 }
-   
-   .terminalitem p{
+  .terminalitem p{
 	   padding: 0;
    }
-
-	
 }
 
                           /*--------------- min-width:768px --------*/
@@ -285,26 +294,48 @@
 	.col-md-12{
 	flex:0 0 auto;
 	width:100%;
-}
-  
- 	 .d-md-none{
-	  display:none !important;
+} 
+ .d-xs-none{
+	  display:block !important;
   }
+
  /*----- client md -------*/
   .client-logo {
     padding: 10px 10px;
 }
-
-
-@media (min-width:992px){
-	.container{
-		width:972px;
-	}
 }
                                 /*--------------- max-width:992px --------*/
 
 @media(max-width:992px){
 
+           .hamburger {
+            display: block;
+        }
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+            }
+        .hamburger.active .bar:nth-child(1) {
+             transform: translateY(8px) rotate(45deg);
+            }
+        .hamburger.active .bar:nth-child(3) {
+             transform: translateY(-8px) rotate(-45deg);
+            }
+.nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 96px;
+        gap: 0;
+        flex-direction: column;
+        background:white;
+        width: 100%;
+		z-index:1;
+            }
+.nav-item {
+        margin: 12px 0;
+            }
+.nav-menu.active {
+        left: 0;
+            }
 	   /*------- banner com ------------*/  
   .bannercontent  h1{
 	  font-size:28px;
@@ -359,7 +390,7 @@
 }
      /*--------------- min-width:1200px --------*/
 					
-@media(min-width:1200px){
+@media(min-width:992px){
 	.container{
 		width:1170px;
 	}
@@ -399,11 +430,9 @@
 	.col-lg-12{
 	width:100%;
 }	
-  .d-lg-block{
-	display:block !important;
-  }
-  .d-lg-none{
-	  display:none !important;
-  }
- 
+ .d-xs-none{
+	 display:block !important;
+ }
 }
+
+

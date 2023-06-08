@@ -95,6 +95,7 @@
 }				
 	
 /*=========== header style ========*/	
+
 .headerinfo{
 	background-color:#39312f;
 	}	
@@ -169,7 +170,62 @@
 .main a.active{
 	color:#00bcd4;
 }	
-	
+.header{
+	background:white;
+	width:100%;
+	padding: 10px;
+	  position:sticky;
+	top:0;
+	z-index:10;
+}
+li{
+	list-style:none;
+}
+a{
+	color:black;
+	text-decoration:none;
+	font-size:14px;
+}
+.nav-container{ 
+    width:85%; 
+    margin:auto;
+} 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+.nav-menu {
+    display: flex;
+	justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+        }
+.nav-branding {
+    font-size: 35px;
+	color:rgba(0, 0, 0, 0.76);
+	font-weight: 600;
+        }
+.nav-link {
+    transition: 0.7s ease;
+	font-size:17px;
+        }
+.nav-link:hover {
+    color:#43cfd7;
+        }
+.hamburger {
+    display: none;
+    cursor: pointer;
+        }
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin:  5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background:black;
+        }
 
 /*------------banner style-----*/
 .bannersection{
